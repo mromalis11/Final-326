@@ -38,7 +38,6 @@ def main():
     
     if order_success:
         # Simple way to generate an order number
-        # In a real application, you'd have a more complex system for this
         from random import randint
         order_number = randint(100, 999)
         print(f"Thank you for your order, {name}. Your order number is {order_number}.")
