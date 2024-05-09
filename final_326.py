@@ -14,7 +14,7 @@ def display_menu():
     return menu
 
 def take_order(menu):
-    """Function to take the user's order and generate an order number. Users can keep ordering items until they input '0' to finish order"""
+    """Function to take the user's order, generate an order number, can keep ordering until input '0' to end"""
     order = []
     while True:
         try:
